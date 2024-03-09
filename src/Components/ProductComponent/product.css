@@ -1,0 +1,33 @@
+.productMain {
+    height: auto;
+    background: #EEEDEB;
+    padding-bottom: 5rem;
+}
+
+.productMain h1 {
+    font-weight: 600;
+}
+
+.productBox {
+    height: 12rem;
+    margin: 1rem 3.5rem;
+    padding: 1rem;
+    height: auto;
+    box-shadow: 5px 5px 5px black;
+}
+
+.productBox img {
+    border: 5px solid black;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.productBox button {
+    background: #1B1A55;
+    color: white;
+    font-weight: 600;
+    border-radius: 2px solid #1B1A55;
+    border-radius: 5px;
+}

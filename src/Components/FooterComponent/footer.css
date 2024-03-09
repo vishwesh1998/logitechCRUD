@@ -1,0 +1,9 @@
+.footer {
+    background: #1B1A55;
+    height: 3rem;
+    color: white;
+}
+
+.footer b {
+    margin-top: 1rem;
+}

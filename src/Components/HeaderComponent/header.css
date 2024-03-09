@@ -1,0 +1,37 @@
+.headerMain {
+    color: white;
+    height: 5rem;
+    background: #1B1A55;
+    box-sizing: border-box;
+}
+
+.headerMain h2 {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-weight: 900;
+}
+
+.headerMain input {
+    margin-top: 1.3rem;
+    font-weight: 600;
+}
+
+.headerMain button {
+    height: 2.4rem;
+    margin-top: 1.3rem;
+    background: white;
+    font-weight: 600;
+    color: darkslategray;
+    margin-left: 0.7rem;
+}
+
+.headerMain h5 {
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+.h5 {
+    margin-left: 8rem;
+}

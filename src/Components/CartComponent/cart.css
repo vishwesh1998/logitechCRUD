@@ -1,0 +1,14 @@
+.cart{
+    height: 500px;
+    background: #EEEDEB;
+}
+
+.cart h1{
+    font-weight: 600;
+}
+
+.btn-sm{
+    background: #1B1A55;
+    color: white;
+    font-weight: 600;
+}
