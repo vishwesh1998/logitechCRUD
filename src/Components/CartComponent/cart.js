@@ -9,7 +9,7 @@ export default function Cart() {
 
     return (<div className='container-fluid cart'>
         <h1 className='text-center pt-3 pb-3'>Cart Details</h1>
-        <table className="table table-bordered text-center">
+        <table className="table table-bordered text-center table-responsive-sm">
             <thead>
                 <tr>
                     <th>Product Title</th>
@@ -28,11 +28,11 @@ export default function Cart() {
                     <td>{e.rating}</td>
                     <td>{e.price}/- Rs</td>
                     <td>
-                        <button className='btn-sm' onClick={() => dispatch(removeQty(e))}>-</button>
+                        <button className='btn-sm cartLowerBtn' onClick={() => dispatch(removeQty(e))}>-</button>
                         &nbsp; &nbsp;
-                        {e.qty}
+                        <span className='qty'>{e.qty}</span>
                         &nbsp; &nbsp;
-                        <button className='btn-sm' onClick={() => dispatch(addQty(e))}>+</button>
+                        <button className='btn-sm cartUpperBtn' onClick={() => dispatch(addQty(e))}>+</button>
                     </td>
                     <td>{e.qty * e.price}/- Rs</td>
                     <td><button className='btn-sm' onClick={() => dispatch(deleteCart(e))}>Delete</button></td>

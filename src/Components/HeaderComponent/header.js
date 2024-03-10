@@ -22,7 +22,7 @@ export default function Header(props) {
             <div className='col-lg-4 d-flex'>
                 <h5 className='h5'><b><Link to='/' style={{ color: 'white', textDecoration: 'none' }}>Product List</Link></b></h5>
                 &nbsp; &nbsp; &nbsp;
-                <h5><b><Link to='/cart' style={{ color: 'white', textDecoration: 'none' }}>Cart {cartValue.length > 0 ? <>: {cartValue.length}</> : ''}</Link></b></h5>
+                <h5 className='cartOption'><b><Link to='/cart' style={{ color: 'white', textDecoration: 'none' }}>Cart {cartValue.length > 0 ? <>: {cartValue.length}</> : ''}</Link></b></h5>
             </div>
         </div>
     </div>)

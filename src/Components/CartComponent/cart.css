@@ -1,14 +1,39 @@
-.cart{
+.cart {
     height: 500px;
     background: #EEEDEB;
 }
 
-.cart h1{
+.cart h1 {
     font-weight: 600;
 }
 
-.btn-sm{
+.btn-sm {
     background: #1B1A55;
     color: white;
     font-weight: 600;
+}
+
+@media (max-width: 468px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .table button {
+        font-size: 12px;
+    }
+
+    .cartUpperBtn {
+        position: relative;
+        left: 25px;
+    }
+
+    .cartLowerBtn {
+        position: relative;
+        top: 30px;
+    }
+
+    .qty {
+        margin-left: -1rem;
+    }
 }

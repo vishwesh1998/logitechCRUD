@@ -7,3 +7,22 @@
 .footer b {
     margin-top: 1rem;
 }
+
+@media (max-width: 468px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .footer b {
+        margin-left: 1rem;
+    }
+
+    .footerLower {
+        margin-right: 2.4rem;
+    }
+}
