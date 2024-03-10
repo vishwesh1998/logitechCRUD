@@ -36,6 +36,12 @@
     margin-left: 8rem;
 }
 
+.headerMain{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
 @media (max-width : 468px) {
     * {
         margin: 0;

@@ -1,6 +1,7 @@
 .cart {
-    height: 500px;
+    height: 1200px;
     background: #EEEDEB;
+    padding-bottom: 1rem;
 }
 
 .cart h1 {
